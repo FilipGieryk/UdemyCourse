@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient();
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: aquamarine;
+  margin: 9.6rem auto;
+  width: 100rem;
+  height: 60rem;
+}
+
+.player {
+  padding: 4.6rem 6.4rem;
+  width: 100%;
+}
+.player--0 {
+  background-color: bisque;
+}
+.player--1 {
+  background-color: blanchedalmond;
+}
+
+.name {
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.score {
+  font-size: 3.6rem;
+  text-align: center;
+  margin-bottom: 6.4rem;
+}
+.current {
+  background-color: aqua;
+  text-align: center;
+  padding: 1.4rem 3.6rem;
+  border-radius: 10px;
+  color: #fff;
+}
+.current-label {
+  font-size: 1.8rem;
+}
+.current-score {
+  font-size: 2.4rem;
+}
+.btn {
+  color: #333;
+  padding: 1rem 2rem;
+  border-radius: 100px;
+  border: none;
+}
+.btn--new {
+  position: absolute;
+  top: 3rem;
+}
+.btn--hold {
+  position: absolute;
+  bottom: 30%;
+}
+.btn--roll {
+  position: absolute;
+  bottom: 15%;
+}
